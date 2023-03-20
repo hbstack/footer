@@ -1,0 +1,16 @@
+<div class="hb-footer-site-info col mb-3 {{ cond (isset .Site.Menus `footer`) `col-lg-3` `text-center` }}">
+  {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-footer-site-info-begin" "Page" .) }}
+  <div class="h5">{{ .Site.Title }}</div>
+  <ul class="list-unstyled small mb-2">
+    {{- with .Site.Params.description }}
+      <li class="mt-2">{{ . }}</li>
+    {{- end }}
+    {{- with .Site.Copyright }}
+      <li class="mt-2">
+        {{- replace . "{year}" now.Year | markdownify -}}
+      </li>
+    {{- end }}
+    {{- partialCached "hb/modules/footer/powered-by" . }}
+  </ul>
+  {{- partial "hugopress/functions/render-hooks" (dict "Name" "hb-footer-site-info-end" "Page" .) }}
+</div>
