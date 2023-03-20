@@ -1,13 +1,12 @@
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20200.20101 h1:wUe8RXjpJYs83CucuWJT7XuqCzQ52f5/N7zlV8woHEg=
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20200.20101/go.mod h1:Z5Bhe4pfn8reoHhWqCQMWEAynLCIeBAt1TDwni4fipM=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
-github.com/hbstack/footer v0.1.0 h1:OviXu4KXHnXzIfvVcwcGw66njekIZEWVHK5XmR9vlz8=
-github.com/hbstack/footer v0.1.0/go.mod h1:oPHs4YfwaFhyjZNx7jJ0Yr27cdUtqMu++/5LcJ/CIbY=
-github.com/hbstack/socials v0.1.0 h1:rffbuAweEb6f7BbHxreHN4EmYSqBQAL4dmVMQpT7vrQ=
-github.com/hbstack/socials v0.1.0/go.mod h1:vYmhtX5NXq7Ieya6BV2Ug0e5fd0W11PaLA1NenKeG/0=
+github.com/hbstack/footer v0.1.1 h1:ALO6hub16fiPTWeP/OzkR7D1zrIkuFwjVWiyCHaBbFA=
+github.com/hbstack/footer v0.1.1/go.mod h1:/kaJFRj7RbX5jaDae21p2CGzjqluDhbpIU9dxTjNVik=
+github.com/hbstack/socials v0.1.1 h1:nuUaI5wnBdh6naPYouM2PPnZwI5lgM1OPctrLRyJfWY=
+github.com/hbstack/socials v0.1.1/go.mod h1:OfycksJfdtZtOvSW1bM6BzepwLHxe3pExV5MBrKoW7I=
 github.com/hugomods/hugopress v0.1.0 h1:qktwbSWtbrEz/nX2wBmxDLzzS4o6/rjp7p0GWcOZ+PU=
 github.com/hugomods/hugopress v0.1.0/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
-github.com/hugomods/icons v0.6.0 h1:G6RU93okhPPRDh/jqcew9gwkcYpSpg0rCBv4S6yUAFw=
 github.com/hugomods/icons/vendors/simple-icons v0.7.0 h1:Fx9BtbTP+/DU52bclpdgLYr1FMr9sA1WPoRw0KqsTOA=
 github.com/hugomods/icons/vendors/simple-icons v0.7.0/go.mod h1:uD4A9Oc+B9L4i2kJ20N++lkXASzA9ccrJMC/Hj/JxBo=
 github.com/twbs/bootstrap v5.2.1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
