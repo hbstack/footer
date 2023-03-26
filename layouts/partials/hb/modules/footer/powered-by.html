@@ -1,7 +1,15 @@
 {{- if default true .Site.Params.hb.footer.powered_by }}
+  {{- $sites := slice
+    (dict "url" "https://gohugo.io/" "title" "Hugo")
+    (dict "url" "https://hugomods.com/" "title" "Hugo Modules")
+    (dict "url" "https://hb.hugomods.com/" "title" "HB Framework")
+  }}
+  {{- $format := `<a class="text-primary-emphasis" href="%s" target="_blank" rel="external" title="%s">%s</a>` }}
+  {{- $links := slice }}
+  {{- range $sites }}
+    {{- $links = $links | append (printf $format .url .title .title) }}
+  {{- end }}
   <li class="mt-2">
-    Built with ❤️ from
-    <a class="text-primary-emphasis" href="https://gohugo.io" target="_blank" rel="external">Hugo</a> and
-    <a class="text-primary-emphasis" href="https://hb.hugomods.com" target="_blank" rel="external">HB Framework</a>.
+    Built with ❤️ from {{ delimit $links ", " " and " }}.
   </li>
 {{- end -}}
