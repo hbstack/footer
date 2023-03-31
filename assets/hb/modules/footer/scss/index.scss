@@ -1,9 +1,11 @@
-.hb-footer-menus {
+.hb-footer {
     a {
-        color: inherit;
+        color: var(--#{$prefix}body-color);
         text-decoration: none;
 
-        &:hover {
+        &:hover,
+        &:focus {
+            color: var(--#{$prefix}link-hover-color);
             text-decoration: underline;
         }
     }
