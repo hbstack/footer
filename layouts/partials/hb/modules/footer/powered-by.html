@@ -4,7 +4,7 @@
     (dict "url" "https://hugomods.com/" "title" "Hugo Modules")
     (dict "url" "https://hb.hugomods.com/" "title" "HB Framework")
   }}
-  {{- $format := `<a class="text-primary-emphasis" href="%s" target="_blank" rel="external" title="%s">%s</a>` }}
+  {{- $format := `<a href="%s" target="_blank" rel="external" title="%s">%s</a>` }}
   {{- $links := slice }}
   {{- range $sites }}
     {{- $links = $links | append (printf $format .url .title .title) }}
