@@ -1,6 +1,11 @@
 {{- with .Site.Params.hb.footer.socials }}
+  {{- $color := default true ._color }}
   <div class="hb-footer-socials d-flex mb-2 justify-content-center">
     {{- range $name, $id := . }}
+      {{/* ignore options. */}}
+      {{- if hasPrefix $name "_" }}
+        {{- continue }}
+      {{- end }}
       {{- $ctx := dict
         "id" $id
         "name" $name
@@ -8,6 +13,7 @@
         "width" "1.5rem"
         "height" "1.5rem"
         "className" "border"
+        "color" $color
       }}
       {{ partial "hb/modules/socials/link" $ctx }}
     {{- end }}
