@@ -17,10 +17,8 @@
     "packages": {
         ".": {
             "exclude-paths": [
-                "modules/beian",
-                "modules/socials"
-            ],
-            "separate-pull-requests": true
+                "modules/"
+            ]
         },
         "modules/beian": {
             "component": "modules/beian"
