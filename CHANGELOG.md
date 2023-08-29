@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.3](https://github.com/hbstack/footer/compare/v0.2.2...v0.2.3) (2023-08-29)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/hb to v0.6.0 ([2aed953](https://github.com/hbstack/footer/commit/2aed95322763fd282b6833043eddc12483fa37b1))
+* **deps:** update module github.com/hbstack/hb to v0.7.0 ([9e29f22](https://github.com/hbstack/footer/commit/9e29f2273083c6165e085f865be03a059c31c465))
+
 ## [0.2.2](https://github.com/hbstack/footer/compare/v0.2.1...v0.2.2) (2023-08-11)
 
 
