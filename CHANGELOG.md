@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.2.6](https://github.com/hbstack/footer/compare/v0.2.5...v0.2.6) (2023-10-24)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hugomods/base to v0.2.0 ([6eaa8f6](https://github.com/hbstack/footer/commit/6eaa8f6da66ff75bdfbfaaedca5316c2100c5585))
+* **deps:** update module github.com/hugomods/base to v0.3.0 ([d3c9b1a](https://github.com/hbstack/footer/commit/d3c9b1a4ebb1a36341a361d66d240758c1308725))
+* **deps:** update module github.com/hugomods/base to v0.4.0 ([9783cf8](https://github.com/hbstack/footer/commit/9783cf8eddf7282529f37340bcca9dedbe60c647))
+
 ## [0.2.5](https://github.com/hbstack/footer/compare/v0.2.4...v0.2.5) (2023-09-24)
 
 

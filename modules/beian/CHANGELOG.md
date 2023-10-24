@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/hbstack/footer/compare/modules/beian/v0.1.3...modules/beian/v0.1.4) (2023-10-24)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/footer to v0.2.5 ([74cbfe5](https://github.com/hbstack/footer/commit/74cbfe5ae1c298cfe2ce29190574b0c89dbc444d))
+
 ## [0.1.3](https://github.com/hbstack/footer/compare/modules/beian/v0.1.2...modules/beian/v0.1.3) (2023-09-24)
 
 
