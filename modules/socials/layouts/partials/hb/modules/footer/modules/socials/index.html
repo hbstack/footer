@@ -1,6 +1,6 @@
 {{- with .Site.Params.hb.footer.socials }}
   {{- $color := default true ._color }}
-  <div class="hb-footer-socials d-flex mb-2 justify-content-center">
+  <div class="hb-footer-socials d-flex mb-2 justify-content-center flex-wrap">
     {{- range $name, $id := . }}
       {{/* ignore options. */}}
       {{- if hasPrefix $name "_" }}
