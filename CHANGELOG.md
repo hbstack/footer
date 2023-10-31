@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.7](https://github.com/hbstack/footer/compare/v0.2.6...v0.2.7) (2023-10-31)
+
+
+### Bug Fixes 🐞
+
+* correct the powered by section ([#159](https://github.com/hbstack/footer/issues/159)) ([d5a2167](https://github.com/hbstack/footer/commit/d5a21679914671278431f057e83499fd2ebab7b8))
+* **deps:** update dependency stylelint-scss to v5.3.0 ([19f2d49](https://github.com/hbstack/footer/commit/19f2d4938a314cf3a7b42d91ab1ded21e3a1adf4))
+
 ## [0.2.6](https://github.com/hbstack/footer/compare/v0.2.5...v0.2.6) (2023-10-24)
 
 
