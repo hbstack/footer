@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.8](https://github.com/hbstack/footer/compare/v0.2.7...v0.2.8) (2023-12-03)
+
+
+### Bug Fixes 🐞
+
+* **deps:** update dependency stylelint-scss to v5.3.1 ([47bb619](https://github.com/hbstack/footer/commit/47bb6197e03fcb36d7c092c1685412e7986950f3))
+
+
+### Styles 🎨
+
+* improve accessibility ([d8a964a](https://github.com/hbstack/footer/commit/d8a964a7c4d060cd55aea9082343b4a4635a1b79))
+
 ## [0.2.7](https://github.com/hbstack/footer/compare/v0.2.6...v0.2.7) (2023-10-31)
 
 
