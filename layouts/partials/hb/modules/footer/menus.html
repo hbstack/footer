@@ -8,7 +8,7 @@
         <li class="mb-2">
           {{- $external := partial "base/functions/is-menu-external" . }}
           <a
-            class="hb-footer-menu"
+            class="hb-footer-menu text-decoration-none"
             href="{{ .URL }}"
             {{ if $external }}target="_blank"{{ end }}>
             {{- partial "hb/modules/footer/menu-text" . -}}
