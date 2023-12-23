@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.10](https://github.com/hbstack/footer/compare/v0.2.9...v0.2.10) (2023-12-23)
+
+
+### Styles 🎨
+
+* **menus:** remove underline from menus ([#199](https://github.com/hbstack/footer/issues/199)) ([99ffc77](https://github.com/hbstack/footer/commit/99ffc774576c3478173b9683df2cdb2ce31264d3))
+
 ## [0.2.9](https://github.com/hbstack/footer/compare/v0.2.8...v0.2.9) (2023-12-16)
 
 
