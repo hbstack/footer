@@ -6,3 +6,4 @@ github.com/hbstack/hb v0.8.0/go.mod h1:Z+gW6UsRwuivPcqqEb67h7vSQwSCWOr7KxNXkhcsE
 github.com/hbstack/hb v0.8.1/go.mod h1:Z+gW6UsRwuivPcqqEb67h7vSQwSCWOr7KxNXkhcsEzM=
 github.com/hugomods/base v0.4.0 h1:jzBIJpqDx8aLAlNe/zF1xbefu1XYxumZc39tOO0ZjSw=
 github.com/hugomods/base v0.4.0/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
+github.com/hugomods/base v0.4.1/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
