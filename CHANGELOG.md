@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.0](https://github.com/hbstack/footer/compare/v0.2.10...v0.3.0) (2024-02-18)
+
+
+### Features ✨
+
+* use Bootstrap icons as the default vendor for menu icons ([01d4f24](https://github.com/hbstack/footer/commit/01d4f241c48f5eb0c6b1b210a7d5943c2a9f1c64))
+
+
+### Bug Fixes 🐞
+
+* **deps:** update dependency stylelint-scss to v6.1.0 ([c9e315f](https://github.com/hbstack/footer/commit/c9e315f553d0883b1f75e5df8b0cad4672038cb7))
+
 ## [0.2.10](https://github.com/hbstack/footer/compare/v0.2.9...v0.2.10) (2023-12-23)
 
 
