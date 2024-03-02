@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/hbstack/footer/compare/v0.3.0...v0.4.0) (2024-03-02)
+
+
+### Features ✨
+
+* add the hb.footer.site_description and hb.footer.site_copyright parameters ([b983a81](https://github.com/hbstack/footer/commit/b983a81cfd674707f3084a0b8a9d05a793818f14))
+
 ## [0.3.0](https://github.com/hbstack/footer/compare/v0.2.10...v0.3.0) (2024-02-18)
 
 
