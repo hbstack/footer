@@ -1,27 +1,54 @@
-const elements: Record<string, null | HTMLElement> = {}
+let initialized = false
+const elements: Array<string> = []
+const initializedElements: Array<HTMLElement> = []
 
 export function attachOn(...selecotrs: string[]) {
-  for (const i of selecotrs) {
-    elements[i] = null
+  elements.push(...selecotrs)
+}
+
+const isSticky = (ele: HTMLElement): boolean => {
+  return window.getComputedStyle(ele).position === 'sticky'
+}
+
+
+const getElements = (): Array<HTMLElement> => {
+  if (!initialized) {
+    for (const i of elements) {
+      const ele = document.querySelector<HTMLElement>(i)
+      if (ele !== null) {
+        initializedElements.push(ele)
+      }
+    }
+  }
+
+  initialized = true
+
+  return initializedElements
+}
+
+const resetElement = (ele: HTMLElement): void => {
+  ele.style.removeProperty('height')
+}
+
+export function reset() {
+  for (const ele of getElements()) {
+    if (!isSticky(ele)) {
+      resetElement(ele)
+    }
   }
 }
 
 const handler = (entries): void => {
   entries.forEach((entry) => {
     const height = entry.intersectionRect.height
-    for (const i in elements) {
-      let ele = elements[i]
-      if (ele === null) {
-        ele = document.querySelector(i)
-        if (ele === null) {
-          delete elements[i]
-          continue
-        }
+    for (const ele of getElements()) {
+      if (!isSticky(ele)) {
+        return
       }
       if (entry.isIntersecting && entry.intersectionRect.height > 0) {
         ele.style.height = `calc(100vh - var(--hb-top-offset) - ${height}px - 2rem)`
       } else {
-        ele.style.removeProperty('height')
+        resetElement(ele)
       }
     }
   })
