@@ -1,6 +1,6 @@
 {
     ".": "0.4.1",
     "modules/beian": "0.1.4",
-    "modules/observer": "0.1.0",
+    "modules/observer": "0.1.1",
     "modules/socials": "0.2.5"
 }

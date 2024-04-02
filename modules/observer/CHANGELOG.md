@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/hbstack/footer/compare/modules/observer/v0.1.0...modules/observer/v0.1.1) (2024-04-02)
+
+
+### Bug Fixes 🐞
+
+* **observer:** do not change height for non-sticky elements ([#271](https://github.com/hbstack/footer/issues/271)) ([4cd04b1](https://github.com/hbstack/footer/commit/4cd04b1422999489287ddc10fdf1329a219523be))
+
 ## [0.1.0](https://github.com/hbstack/footer/compare/modules/observer-v0.0.1...modules/observer/v0.1.0) (2024-04-02)
 
 
