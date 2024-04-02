@@ -23,6 +23,9 @@
         "modules/beian": {
             "component": "modules/beian"
         },
+        "modules/observer": {
+            "component": "modules/observer"
+        },
         "modules/socials": {
             "component": "modules/socials"
         }
