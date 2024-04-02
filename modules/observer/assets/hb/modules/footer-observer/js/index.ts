@@ -1,4 +1,4 @@
-import { default as handler } from './handler';
+import { default as handler, reset } from './handler';
 
 (() => {
     const footer = document.querySelector('.hb-footer')
@@ -14,4 +14,8 @@ import { default as handler } from './handler';
         threshold: threshold,
     })
     observer.observe(footer)
+
+    window.addEventListener('resize', () => {
+        reset()
+    })
 })()
