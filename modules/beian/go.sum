@@ -13,6 +13,7 @@ github.com/hbstack/footer v0.2.9/go.mod h1:9lJgQPtlefBNs/nrdt6Qr/hF5CjvymwkUVBun
 github.com/hbstack/footer v0.2.10/go.mod h1:z779/sE1prEcABuz4RjhSwA8QkFLkmf+xv/5yM3BtPc=
 github.com/hbstack/footer v0.3.0/go.mod h1:mYITqQNk4PJWxPciS4/r0bRuB3cDDOXZ3dGwIHuYTME=
 github.com/hbstack/footer v0.4.0/go.mod h1:5eB1ETT2WO5pNHObzRpFdwzrcQnHDGoBUOi+gtX/fa4=
+github.com/hbstack/footer v0.4.1/go.mod h1:EvignAN0ShrWDbPAlf9+lrRfJSha9G4wYPDUed4wPzg=
 github.com/hugomods/hugopress v0.2.1 h1:coYEPHUNLuTxKrVWVIPgs0lbZ6yrqxdWjgSriNFuBVo=
 github.com/hugomods/hugopress v0.2.1/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
 github.com/hugomods/hugopress v0.2.2/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
