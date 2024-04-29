@@ -25,6 +25,7 @@ github.com/hbstack/socials v0.9.0/go.mod h1:8H+ztN27J59oWcQyQTFj95HsauF2a22GXqQl
 github.com/hbstack/socials v0.10.0/go.mod h1:VeK9k0+f+HsKuPbVAqRwwz5KqWm+2+NlYlJsMdja4c8=
 github.com/hbstack/socials v0.11.0/go.mod h1:VeK9k0+f+HsKuPbVAqRwwz5KqWm+2+NlYlJsMdja4c8=
 github.com/hbstack/socials v0.12.0/go.mod h1:VeK9k0+f+HsKuPbVAqRwwz5KqWm+2+NlYlJsMdja4c8=
+github.com/hbstack/socials v0.13.0/go.mod h1:xCbwzO1NzuLhll79QlkG9r/wS0r3Hl5Cy+GhxZBqceo=
 github.com/hugomods/hugopress v0.2.1 h1:coYEPHUNLuTxKrVWVIPgs0lbZ6yrqxdWjgSriNFuBVo=
 github.com/hugomods/hugopress v0.2.1/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
 github.com/hugomods/hugopress v0.2.2/go.mod h1:CRYvr60xOkZOf4Atkuj+uEj2EH5pjJ39Ws3aJAkoMkA=
