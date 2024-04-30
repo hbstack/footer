@@ -1,21 +1,20 @@
-{{- with .Site.Params.hb.footer.socials }}
-  {{- $color := default true ._color }}
-  <div class="hb-footer-socials d-flex mb-2 justify-content-center flex-wrap">
-    {{- range $name, $id := . }}
-      {{/* ignore options. */}}
-      {{- if hasPrefix $name "_" }}
-        {{- continue }}
-      {{- end }}
-      {{- $ctx := dict
-        "id" $id
-        "name" $name
-        "class" "p-2"
-        "width" "1.75em"
-        "height" "1.75em"
-        "className" "border"
-        "color" $color
-      }}
-      {{ partial "hb/modules/socials/link" $ctx }}
+{{- with site.Params.hb.footer.socials }}
+  {{- $color := "" }}
+  {{- if reflect.IsMap . }}
+    {{- if isset . "_color" }}
+      {{- $color = ._color }}
     {{- end }}
+  {{- end }}
+  <div class="hb-footer-socials d-flex mb-2 justify-content-center flex-wrap">
+    {{- partial "hb/modules/socials/links" (dict
+      "Media" site.Params.hb.footer.socials
+      "Options" (dict
+        "color" $color
+        "class" "p-2"
+        "height" "1.75em"
+        "width" "1.75em"
+        "className" "border"
+      )
+    ) }}
   </div>
 {{- end -}}
