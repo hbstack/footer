@@ -7,7 +7,7 @@ require (
 	github.com/hbstack/footer v0.4.1 // indirect
 	github.com/hbstack/socials v0.15.0 // indirect
 	github.com/hugomods/hugopress v0.4.0 // indirect
-	github.com/hugomods/icons v0.6.3 // indirect
+	github.com/hugomods/icons v0.6.4 // indirect
 	github.com/hugomods/simple-icons v12.2.0+incompatible // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 )
