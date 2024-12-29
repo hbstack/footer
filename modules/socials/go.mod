@@ -8,6 +8,6 @@ require (
 	github.com/hbstack/socials v0.17.2 // indirect
 	github.com/hugomods/hugopress v0.5.0 // indirect
 	github.com/hugomods/icons v0.6.6 // indirect
-	github.com/hugomods/simple-icons v13.19.0+incompatible // indirect
+	github.com/hugomods/simple-icons v13.21.0+incompatible // indirect
 	github.com/twbs/icons v1.11.3 // indirect
 )
